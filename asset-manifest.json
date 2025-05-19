@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/fashion/static/css/main.670b6aaa.css",
+    "main.js": "/fashion/static/js/main.56102b68.js",
+    "static/media/mainGround.svg": "/fashion/static/media/mainGround.1a8998e752b8dacf26d1.svg",
+    "index.html": "/fashion/index.html",
+    "main.670b6aaa.css.map": "/fashion/static/css/main.670b6aaa.css.map",
+    "main.56102b68.js.map": "/fashion/static/js/main.56102b68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.670b6aaa.css",
+    "static/js/main.56102b68.js"
+  ]
+}
