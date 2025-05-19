@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.no-underline { text-decoration: none; }
+
+body {
+    margin: 0;
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+  * {
+    font-family: 'Inter', system-ui, sans-serif;
+    
+  }
+  h1 {
+    margin: 0;
+  }
+  span {
+    text-decoration-line: none;
+  }
+
+  .marketing > h1 > span {
+    text-decoration-line: none;
+  }
+  .wrapper {
+    background: #FFFFFF;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+  }
+
+  .header {
+    padding: 24px 0px;
+  }
+
+.container {
+    display: flex;
+    width: 1240px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    gap: 24px;
+    display: flex;
+}
+
+span {
+    text-decoration-line: underline;
+}
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+p {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.homePromo {
+    width: 100%;
+    height: 38px;
+    background-color: black;
+}
+
+.SearchWith{
+    position: relative;
+}
+
+.searchInput {
+    border: none;
+    outline: none;
+    width: 525px;
+    height: 32px;
+    border-radius: 62px;
+    padding: 8px 16px 8px 0px;
+    padding-left: 47px;
+    background-color: #F0F0F0;
+    font-size: 16px;
+}
+
+.imgInput {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 14px;
+    top: 28%;
+    pointer-events: none;
+}
+
+.main-screen {
+    width: 1440px;
+    height: 660px;
+    background: url('../public/img/mainGround.svg') no-repeat center / cover;
+}
+
+.promo-sector {
+    h1 {
+        color: black;
+    }
+    p {
+        color: black;
+    }
+}
+
+.wrapper-promo {
+    display: flex;
+    flex-direction: column;
+    width: 596px;
+    padding: 100px 0 0 100px;
+    .promoTitle {
+        text-align: left;
+        font-size: 64px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 850;
+        margin: 0;
+        line-height: 64px;
+        
+    }
+    .promoText {
+        text-align: left;
+        font-size: 16px;
+        color: #000000;
+        opacity: 0.6;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .promoBtn {
+        width: 210px;
+        height: 52px;
+        background-color: #000;
+        border-radius: 62px;
+        outline: none;
+        border: none;
+        border-width: 0;
+        color: #FFFFFF;
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+        &:hover {
+            transition: all 0.3s ease-out;
+            background-color: #FFFFFF;
+            color: #000;
+        }
+    }
+}
+
+.marketing {
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrapper-marketing {
+    display: flex;
+    gap: 30px;
+    padding-top: 42px;
+}
+.wrapper-marketing > span {
+    background-color: #000;
+    opacity: 0.1;
+    width: 2px;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 122px;
+    background-color: #000;
+}
+
+.cardTitle {
+    padding-bottom: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contentTitle {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 850;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.containerContent {
+    width: 1240px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.imgCard {
+    width: 295px;
+    height: 298px;
+    border-radius: 49px;
+    margin-bottom: 16px;
+    background-color: #F0EEED;
+}
+
+.starsRating {
+    display: flex;
+    gap: 5px;
+    padding-bottom: 4px;
+}
+
+.pastPrice {
+    text-decoration-line: line-through;
+    opacity: 0.3;
+}
+
+.discount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58px;
+    height: 28px;
+    text-decoration-line: none;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FF3333;
+    background-color: rgba(255, 51, 51, 0.1);
+    border-radius: 62px;
+}
+
+.contentBtnAll {
+    margin: 35px auto;
+    margin-bottom: 60px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    height: 52px;
+    background-color: #FFFFFF;
+    border-radius: 62px;
+    border: 1px solid #cec9cb;
+    padding: 16px 69px;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.itemCard {
+    width: 295px;
+    cursor: pointer;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.starHalf {
+    clip-path: inset(0 9px 0 0);
+}
+
+.section {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    display: block;
+    opacity: 0.17;
+    //margin-bottom: 72px;
+}
+
+.dressStyle {
+    width: 100%;
+    background-color: #F0F0F0;
+    border-radius: 40px;
+    .style {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .styleDown {
+        padding-top: 24px;
+        padding-bottom: 55px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .casual {
+        display: flex;
+        position: relative;
+        width: 407px;
+        cursor: pointer;
+        border-radius: 20px;
+        .textStyle {
+            position: absolute;
+            top: 25px;
+            left: 36px;
+            z-index: 2;
+            font-size: 36px;
+            color: #000;
+            text-align: none;
+            margin: none;
+        }
+    }
+    .formal {
+        position: relative;
+        width: 684px;
+        cursor: pointer;
+        .textStyle {
+            position: absolute;
+            top: 25px;
+            left: 36px;
+            z-index: 2;
+            font-size: 36px;
+            color: #000;
+            text-align: none;
+            margin: none;
+        }
+    }
+    .party {
+        position: relative;
+        //width: 684px;
+        cursor: pointer;
+        .textStyle {
+            position: absolute;
+            top: 25px;
+            left: 36px;
+            z-index: 2;
+            font-size: 36px;
+            color: #000;
+            text-align: none;
+            margin: none;
+        }
+    }
+    .gym {
+        //display: flex;
+        position: relative;
+        width: 407px;
+        cursor: pointer;
+        .textStyle {
+            position: absolute;
+            top: 25px;
+            left: 36px;
+            z-index: 2;
+            font-size: 36px;
+            color: #000;
+            text-align: none;
+            margin: none;
+        }
+    }
+}
+
+.recallsHeader {
+    margin-bottom: 30px;
+}
+
+.arrowBtn {
+    cursor: pointer;
+}
+
+.recalls {
+    margin-top: 50px;
+    .recallTitle {
+        margin: 0;
+        font-size: 48px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 850;
+    }
+    .recalls-card {
+        width: 345px;
+        height: 230px;
+        padding: 32px 28px;
+        border: 1px solid #cec9cb;
+        border-radius: 20px;
+    }
+}
+
+.footer{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 72px;
+    width: 1240px;
+    position: absolute;
+    z-index: 3;
+    left: 17%;
+    /* margin: 0 auto; */
+    right: 17%;
+    .emailInput {
+        width: 1240px;
+        display: flex;
+        margin: 0 auto;
+        background-color: #000;
+        border-radius: 20px;
+        padding: 36px 64px;
+
+        .placeEmail {
+            padding: 12px 16px;
+            border-radius: 62px;
+            border: none;
+            outline: none;
+            width: 317px;
+            padding-left: 36px;
+        }
+    }
+}
+
+.emailText {
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 850;
+    text-align: left;
+}
+
+.emailBtn {
+    color: #000;
+    padding: 12px 16px;
+    background-color: #fff;
+    border-radius: 62px;
+    text-align: center;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.wrapperEmail {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.emailIcon {
+    left: 8px;
+    position: absolute;
+}
+
+.bg {
+    background-color: #F0F0F0;
+}
+
+.n1 {
+    display: flex;
+    flex-direction: column;
+    width: 248px;
+}
+
+.downFooter {
+    justify-content: space-around;
+    background-color: #F0F0F0;
+    padding-top: 142px;
+    margin-top: 152px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    height: 177px;
+    margin-bottom: 42px;
+}
+
+.column > a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.6;
+    padding-top: 16px;
+}
+
+.n1 > .footerText {
+    color: #000;
+    text-align: left;
+    padding-top: 21px;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.column > h3 {
+    margin: 0;
+    font-weight: 480;
+}
+
